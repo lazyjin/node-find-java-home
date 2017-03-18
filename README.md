@@ -3,13 +3,13 @@
 Returns the location of JAVA_HOME as an absolute path on windows, mac, and
 linux.  It forked from [find-java-home](https://github.com/jsdevel/node-find-java-home) and runs synchronously.
 
-##Prerequisites
+## Prerequisites
 * Node v0.11.12+
 
-##Installation
+## Installation
 `npm install node-java-home-sync`
 
-##Example
+## Example
 ````javascript
 require('find-java-home-sync')(function(err, home){
   if(err)return console.log(err);
@@ -17,7 +17,7 @@ require('find-java-home-sync')(function(err, home){
 });
 ````
 
-##License
+## License
 ````
 Copyright 2013 Joseph Spencer.
 
